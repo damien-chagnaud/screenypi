@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>player/css/newsticker.css</file>
+        <file>player/css/slide.css</file>
+        <file>player/images/info.jpg</file>
+        <file>player/js/libs/jquery.js</file>
+        <file>player/js/libs/tickerNews.min.js</file>
+        <file>player/index.html</file>
+        <file>maintenance/images/barres_b.png</file>
+        <file>maintenance/images/barres_h.png</file>
+        <file>maintenance/images/warning.png</file>
+        <file>maintenance/index.html</file>
+        <file>maintenance/main.css</file>
+    </qresource>
+</RCC>

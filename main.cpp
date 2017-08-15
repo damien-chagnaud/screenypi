@@ -15,6 +15,8 @@
 #include "webengineviewplus.h"
 
 
+const QString maintenancePage =  "qrc:/maintenace/index.html";
+const QString playerPage =  "qrc:/player/index.html";
 
 int main(int argc, char *argv[])
 {
@@ -47,7 +49,7 @@ int main(int argc, char *argv[])
 
     parser.process(arguments);
 
-    QString initialUrl = parser.positionalArguments().isEmpty() ? QStringLiteral("qrc:/pages/index.html") : parser.positionalArguments().first();
+    QString initialUrl = parser.positionalArguments().isEmpty() ? maintenancePage : parser.positionalArguments().first();
    //bool keyboard = parser.isSet(keyboardOption) ? true : false;
 
     bool confManager = false;

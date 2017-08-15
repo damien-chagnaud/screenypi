@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screenypi>
+	<infos>
+		<name></name>
+		<date></date>
+		<title></title>
+		<customer></customer>
+		
+	</infos>
+	<head>
+		<logo url=""></logo>
+		<background-color>#f00</background-color>
+	</head>
+	<main>
+		<playlist transition="">
+			<item index=""  type="image" url="" staytime=""></item>
+		</playlist>
+	</main>
+	<ticker>
+	</ticker>
+</screenypi>
