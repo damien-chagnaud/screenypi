@@ -1,10 +1,29 @@
-QT += qml quick webview
+QT += webenginewidgets
 
 CONFIG += c++11
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    gpiocon.cpp \
+    network.cpp \
+    dialogue.cpp \
+    data.cpp \
+    users.cpp \
+    configuration.cpp \
+    webengineviewplus.cpp
 
-RESOURCES += qml.qrc
+RESOURCES += \
+    htdocs.qrc
+
+
+HEADERS += \
+    gpiocon.h \
+    gpiodriver.h \
+    network.h \
+    dialogue.h \
+    data.h \
+    users.h \
+    configuration.h \
+    webengineviewplus.h
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
