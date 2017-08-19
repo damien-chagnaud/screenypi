@@ -15,7 +15,7 @@
 #include "webengineviewplus.h"
 
 
-const QString maintenancePage =  "qrc:/maintenace/index.html";
+const QString maintenancePage =  "qrc:/maintenance/index.html";
 const QString playerPage =  "qrc:/player/index.html";
 
 int main(int argc, char *argv[])
