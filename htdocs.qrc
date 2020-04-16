@@ -11,5 +11,7 @@
         <file>maintenance/images/warning.png</file>
         <file>maintenance/index.html</file>
         <file>maintenance/main.css</file>
+        <file>AdminView.qml</file>
+        <file>AdminViewForm.ui.qml</file>
     </qresource>
 </RCC>

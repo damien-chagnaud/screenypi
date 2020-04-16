@@ -1,15 +1,15 @@
-QT += webenginewidgets
+QT += qml quick core gui webengine webenginewidgets
 
 CONFIG += c++11
+
+HEADERS += \
+    configuration.h \
+    webengineviewplus.h
 
 SOURCES += main.cpp \
     configuration.cpp \
     webengineviewplus.cpp
 
-
-HEADERS += \
-    configuration.h \
-    webengineviewplus.h
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
